@@ -3,94 +3,18 @@
 
 <head>
     <title>Portugal Health Information Systems Timeline</title>
-    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-timeline.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
-    <style type="text/css">
-        html,
-        body,
-        #container {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+
 </head>
 
 <body>
-    <div id="container">
-        <script>
-            anychart.onDocumentReady(function () {
-       anychart.data.loadJsonFile(
-      'mydata.json',   
-            function (data) {
-      
-              // create timeline chart
-              var chart = anychart.timeline();
-            var x =15;
-              // create the main timeline datapoints
-              for (var i = 0; i < data.pfizerTimeline.length; i++) {    
-                // create range series
-                 x += 3;
-                var y=0;
-                var series = chart.range([
-                  [
-                    data.pfizerTimeline[i].title,
-                    data.pfizerTimeline[i].start,
-                    data.pfizerTimeline[i].end
-                    
-                  ]
-                ]).height(x);
-              }
-      
-              // create dataset for the top datapoints
-              var pfizerDataSet = anychart.data.set(data.Decretos);
-      
-              // map the top datapoints
-              var pfizerMapping = pfizerDataSet.mapAs({
-                x: 'date',
-                value: 'title'
-              });
-      
-              // create top series with moments
-              var pfizerMappingSeries = chart.moment(pfizerMapping);
-      
-              // create dataset for the bottom datapoints
-              var otherVaccinesDataset = anychart.data.set(data.otherVaccines);
-      
-              // map the bottom dataset
-              var otherVaccinesDatasetMapping = otherVaccinesDataset.mapAs({
-                x: 'date',
-                value: 'title'
-              });
-      
-              // create bottom series with moments
-              var otherVaccinesSeries = chart.moment(otherVaccinesDatasetMapping);
-      
-              // set chart scale levels
-              chart.scale().zoomLevels([
-                [
-                  { unit: 'year', count: 1 }
-                ]
-              ]);
-      
-              // enable chart scroller
-              chart.scroller().enabled(true);
-      
-              // set chart's title
-              chart.title('HIS History in Portugal');
-      
-              // set container id for the chart
-              chart.container('container');
-      
-              // initiate chart drawing
-              chart.draw();
-      
-            });
-          });
-          </script>
-    </div>
+   <h1>This is about creating beautiful and useful timelines on the web.</h1>
+<ul>
+    <li>For anycharts example go <a href="anycharts/anycharts.html">here</a></li>
+    <li>For timesheet.js example go <a href="timesheetjs/index.html">here</a></li>
+    <li>For vis.js example go <a href="vis.js/index.html">here</a></li>
+
+
+</ul>
 </body>
 
 </html>
