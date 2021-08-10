@@ -1,0 +1,90 @@
+{
+    "Decretos": [
+      {
+        "description": "Approval of Pfizer/BioNTech vaccine in UK",
+        "title": "DL 10/1993 Criação IGIF",
+        "date": "1993/1/1"
+      },
+      {
+        "description": "Approval of Pfizer/BioNTech vaccine in Canada",
+        "title": "DL 219/2007 Criação ACSS",
+        "date": "2007/1/1"
+      },
+      {
+        "description": "Sandra Lindsay, a critical care nurse from Northwell Long Island Jewish Medical Center was the first vaccinated in New York",
+        "title": "DL 19/2010 - Criação SPMS",
+        "date": "2010/1/1"
+      },
+      {
+        "description": "Approval of Pfizer/BioNTech vaccine in EU",
+        "title": "DRE 3591/2012 - SI nos SPMS",
+        "date": "2012/1/1"
+      }
+    ],
+    "pfizerTimeline": [
+      {
+        "description": "Pfizer (along with Moderna) uses a new vaccine approach involving messenger RNA",
+        "title": "MaxData",
+        "start": "1989/1/1",
+        "end":"2021/08/10",
+
+        "color": "#00a950"
+      },
+      {
+        "description": "Pfizer was the first company to report positive phase 3 clinical data",
+        "title": "Novabase",
+        "start": "1989/1/1",
+        "color": "#00a950"
+      },
+      {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "MedicineOne",
+        "start": "1990/1/1",
+        "color": "#00a950"
+      },
+      {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "ParaRede",
+        "start": "1995/1/1",
+        "end": "2008/1/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "SectraPortugal",
+        "start": "1998/1/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "First",
+        "start": "2001/1/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "Alert",
+        "start": "1999/12/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "Bsimple",
+        "start": "2002/1/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "Confidentia",
+        "start": "1999/1/1",
+        "color": "#00a950"
+      },  {
+        "description": "Dosage - 2 doses, 3 weeks apart",
+        "title": "Glintt",
+        "start": "2008/1/1",
+        "color": "#00a950"
+      }
+    ],
+    "otherVaccines": [
+      {
+        "description": "Moderna (along with Pfizer) uses a new vaccine approach involving messenger RNA",
+        "title": "Moderna trials start",
+        "date": "2020/07/27"
+      }
+    ]
+   }
